@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD255CF51CCEA05D001EAE1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD255CF41CCEA05D001EAE1B /* AppDelegate.swift */; };
+		CD255CF71CCEA05D001EAE1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD255CF61CCEA05D001EAE1B /* ViewController.swift */; };
+		CD255CF91CCEA05D001EAE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD255CF81CCEA05D001EAE1B /* Assets.xcassets */; };
+		CD255CFC1CCEA05D001EAE1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD255CFA1CCEA05D001EAE1B /* Main.storyboard */; };
+		CD255D071CCEA05D001EAE1B /* redmineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD255D061CCEA05D001EAE1B /* redmineTests.swift */; };
+		CD255D121CCEA05D001EAE1B /* redmineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD255D111CCEA05D001EAE1B /* redmineUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD255D031CCEA05D001EAE1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD255CE91CCEA05D001EAE1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD255CF01CCEA05D001EAE1B;
+			remoteInfo = redmine;
+		};
+		CD255D0E1CCEA05D001EAE1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD255CE91CCEA05D001EAE1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD255CF01CCEA05D001EAE1B;
+			remoteInfo = redmine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD255CF11CCEA05D001EAE1B /* redmine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redmine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD255CF41CCEA05D001EAE1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD255CF61CCEA05D001EAE1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD255CF81CCEA05D001EAE1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD255CFB1CCEA05D001EAE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD255CFD1CCEA05D001EAE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD255D021CCEA05D001EAE1B /* redmineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = redmineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD255D061CCEA05D001EAE1B /* redmineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redmineTests.swift; sourceTree = "<group>"; };
+		CD255D081CCEA05D001EAE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD255D0D1CCEA05D001EAE1B /* redmineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = redmineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD255D111CCEA05D001EAE1B /* redmineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redmineUITests.swift; sourceTree = "<group>"; };
+		CD255D131CCEA05D001EAE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD255CEE1CCEA05D001EAE1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD255CFF1CCEA05D001EAE1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD255D0A1CCEA05D001EAE1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD255CE81CCEA05D001EAE1B = {
+			isa = PBXGroup;
+			children = (
+				CD255CF31CCEA05D001EAE1B /* redmine */,
+				CD255D051CCEA05D001EAE1B /* redmineTests */,
+				CD255D101CCEA05D001EAE1B /* redmineUITests */,
+				CD255CF21CCEA05D001EAE1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD255CF21CCEA05D001EAE1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD255CF11CCEA05D001EAE1B /* redmine.app */,
+				CD255D021CCEA05D001EAE1B /* redmineTests.xctest */,
+				CD255D0D1CCEA05D001EAE1B /* redmineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD255CF31CCEA05D001EAE1B /* redmine */ = {
+			isa = PBXGroup;
+			children = (
+				CD255CF41CCEA05D001EAE1B /* AppDelegate.swift */,
+				CD255CF61CCEA05D001EAE1B /* ViewController.swift */,
+				CD255CF81CCEA05D001EAE1B /* Assets.xcassets */,
+				CD255CFA1CCEA05D001EAE1B /* Main.storyboard */,
+				CD255CFD1CCEA05D001EAE1B /* Info.plist */,
+			);
+			path = redmine;
+			sourceTree = "<group>";
+		};
+		CD255D051CCEA05D001EAE1B /* redmineTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD255D061CCEA05D001EAE1B /* redmineTests.swift */,
+				CD255D081CCEA05D001EAE1B /* Info.plist */,
+			);
+			path = redmineTests;
+			sourceTree = "<group>";
+		};
+		CD255D101CCEA05D001EAE1B /* redmineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD255D111CCEA05D001EAE1B /* redmineUITests.swift */,
+				CD255D131CCEA05D001EAE1B /* Info.plist */,
+			);
+			path = redmineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD255CF01CCEA05D001EAE1B /* redmine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD255D161CCEA05D001EAE1B /* Build configuration list for PBXNativeTarget "redmine" */;
+			buildPhases = (
+				CD255CED1CCEA05D001EAE1B /* Sources */,
+				CD255CEE1CCEA05D001EAE1B /* Frameworks */,
+				CD255CEF1CCEA05D001EAE1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = redmine;
+			productName = redmine;
+			productReference = CD255CF11CCEA05D001EAE1B /* redmine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD255D011CCEA05D001EAE1B /* redmineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD255D191CCEA05D001EAE1B /* Build configuration list for PBXNativeTarget "redmineTests" */;
+			buildPhases = (
+				CD255CFE1CCEA05D001EAE1B /* Sources */,
+				CD255CFF1CCEA05D001EAE1B /* Frameworks */,
+				CD255D001CCEA05D001EAE1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD255D041CCEA05D001EAE1B /* PBXTargetDependency */,
+			);
+			name = redmineTests;
+			productName = redmineTests;
+			productReference = CD255D021CCEA05D001EAE1B /* redmineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD255D0C1CCEA05D001EAE1B /* redmineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD255D1C1CCEA05D001EAE1B /* Build configuration list for PBXNativeTarget "redmineUITests" */;
+			buildPhases = (
+				CD255D091CCEA05D001EAE1B /* Sources */,
+				CD255D0A1CCEA05D001EAE1B /* Frameworks */,
+				CD255D0B1CCEA05D001EAE1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD255D0F1CCEA05D001EAE1B /* PBXTargetDependency */,
+			);
+			name = redmineUITests;
+			productName = redmineUITests;
+			productReference = CD255D0D1CCEA05D001EAE1B /* redmineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD255CE91CCEA05D001EAE1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Geiser;
+				TargetAttributes = {
+					CD255CF01CCEA05D001EAE1B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					CD255D011CCEA05D001EAE1B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CD255CF01CCEA05D001EAE1B;
+					};
+					CD255D0C1CCEA05D001EAE1B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CD255CF01CCEA05D001EAE1B;
+					};
+				};
+			};
+			buildConfigurationList = CD255CEC1CCEA05D001EAE1B /* Build configuration list for PBXProject "redmine" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD255CE81CCEA05D001EAE1B;
+			productRefGroup = CD255CF21CCEA05D001EAE1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD255CF01CCEA05D001EAE1B /* redmine */,
+				CD255D011CCEA05D001EAE1B /* redmineTests */,
+				CD255D0C1CCEA05D001EAE1B /* redmineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD255CEF1CCEA05D001EAE1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD255CF91CCEA05D001EAE1B /* Assets.xcassets in Resources */,
+				CD255CFC1CCEA05D001EAE1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD255D001CCEA05D001EAE1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD255D0B1CCEA05D001EAE1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD255CED1CCEA05D001EAE1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD255CF71CCEA05D001EAE1B /* ViewController.swift in Sources */,
+				CD255CF51CCEA05D001EAE1B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD255CFE1CCEA05D001EAE1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD255D071CCEA05D001EAE1B /* redmineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD255D091CCEA05D001EAE1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD255D121CCEA05D001EAE1B /* redmineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD255D041CCEA05D001EAE1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD255CF01CCEA05D001EAE1B /* redmine */;
+			targetProxy = CD255D031CCEA05D001EAE1B /* PBXContainerItemProxy */;
+		};
+		CD255D0F1CCEA05D001EAE1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD255CF01CCEA05D001EAE1B /* redmine */;
+			targetProxy = CD255D0E1CCEA05D001EAE1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD255CFA1CCEA05D001EAE1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD255CFB1CCEA05D001EAE1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD255D141CCEA05D001EAE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD255D151CCEA05D001EAE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD255D171CCEA05D001EAE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = redmine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = menoia.geiser.redmine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD255D181CCEA05D001EAE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = redmine/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = menoia.geiser.redmine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD255D1A1CCEA05D001EAE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = redmineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = menoia.geiser.redmineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/redmine.app/Contents/MacOS/redmine";
+			};
+			name = Debug;
+		};
+		CD255D1B1CCEA05D001EAE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = redmineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = menoia.geiser.redmineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/redmine.app/Contents/MacOS/redmine";
+			};
+			name = Release;
+		};
+		CD255D1D1CCEA05D001EAE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = redmineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = menoia.geiser.redmineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = redmine;
+			};
+			name = Debug;
+		};
+		CD255D1E1CCEA05D001EAE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = redmineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = menoia.geiser.redmineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = redmine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD255CEC1CCEA05D001EAE1B /* Build configuration list for PBXProject "redmine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD255D141CCEA05D001EAE1B /* Debug */,
+				CD255D151CCEA05D001EAE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD255D161CCEA05D001EAE1B /* Build configuration list for PBXNativeTarget "redmine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD255D171CCEA05D001EAE1B /* Debug */,
+				CD255D181CCEA05D001EAE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD255D191CCEA05D001EAE1B /* Build configuration list for PBXNativeTarget "redmineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD255D1A1CCEA05D001EAE1B /* Debug */,
+				CD255D1B1CCEA05D001EAE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD255D1C1CCEA05D001EAE1B /* Build configuration list for PBXNativeTarget "redmineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD255D1D1CCEA05D001EAE1B /* Debug */,
+				CD255D1E1CCEA05D001EAE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD255CE91CCEA05D001EAE1B /* Project object */;
+}
