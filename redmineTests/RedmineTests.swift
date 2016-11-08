@@ -1,15 +1,15 @@
 //
-//  redmineTests.swift
-//  redmineTests
+//  RedmineTests.swift
+//  RedmineTests
 //
 //  Created by Geiser on 25/04/16.
 //  Copyright © 2016 Geiser. All rights reserved.
 //
 
 import XCTest
-@testable import redmine
+@testable import Redmine
 
-class redmineTests: XCTestCase {
+class RedmineTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -28,7 +28,7 @@ class redmineTests: XCTestCase {
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }

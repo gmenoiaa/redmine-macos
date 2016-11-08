@@ -1,6 +1,6 @@
 //
-//  redmineUITests.swift
-//  redmineUITests
+//  RedmineUITests.swift
+//  RedmineUITests
 //
 //  Created by Geiser on 25/04/16.
 //  Copyright © 2016 Geiser. All rights reserved.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class redmineUITests: XCTestCase {
+class RedmineUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
